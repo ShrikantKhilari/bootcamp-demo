@@ -13,4 +13,5 @@ variables:
   imageName: 'shashankbarsin/bootcamp-demo:$(build.buildId)'
 
 steps:
-- script: echo Hello Azure World
+- script: cd app
+- script: docker build -t developer-camp:shrikant .
