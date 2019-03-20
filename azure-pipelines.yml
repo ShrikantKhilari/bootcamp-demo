@@ -10,7 +10,7 @@ pool:
   vmImage: 'Ubuntu-16.04'
 
 variables:
-  imageName: 'shashankbarsin/bootcamp-demo:$(build.buildId)'
+  imageName: 'ShrikantKhilari/bootcamp-demo:$(build.buildId)'
 
 steps:
 - task: Docker@1
